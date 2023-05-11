@@ -1,0 +1,10 @@
+uuid: 1d908f2a-f0df-4c37-b38d-5cea1233f1e7
+langcode: pl
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Administracja
+description: 'Odnośniki administracyjne'
+locked: true

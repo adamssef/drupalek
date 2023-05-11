@@ -1,0 +1,9 @@
+uuid: 1842ebbb-fdb3-41bc-89fe-dd44ab18d36d
+langcode: pl
+status: true
+dependencies: {  }
+id: en
+label: English
+direction: ltr
+weight: -10
+locked: false

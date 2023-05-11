@@ -1,0 +1,29 @@
+uuid: b7490eb9-9aad-41da-9624-2d75d3dbdea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.plant.body
+    - node.type.plant
+  module:
+    - text
+    - user
+id: node.plant.default
+targetEntityType: node
+bundle: plant
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

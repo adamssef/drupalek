@@ -1,0 +1,13 @@
+uuid: 8642901c-8053-4968-a1e5-5086273d6bc5
+langcode: pl
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: lfyE_snmvfg_EQ3VDyhUtGAXgmqtEiqa46I3bTMg8DU
+id: comment_save_action
+label: 'Zapisz komentarz'
+type: comment
+plugin: 'entity:save_action:comment'
+configuration: {  }
