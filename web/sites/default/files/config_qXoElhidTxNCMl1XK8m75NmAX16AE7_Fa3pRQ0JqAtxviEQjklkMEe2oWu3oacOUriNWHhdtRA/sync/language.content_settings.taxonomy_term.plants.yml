@@ -1,0 +1,11 @@
+uuid: ee4ee998-da72-45d3-b253-6a57137ec845
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.plants
+id: taxonomy_term.plants
+target_entity_type_id: taxonomy_term
+target_bundle: plants
+default_langcode: site_default
+language_alterable: false

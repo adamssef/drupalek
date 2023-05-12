@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.plant.body
+    - field.field.node.plant.field_plant_image
     - node.type.plant
   module:
     - text
@@ -28,4 +29,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_plant_image: true
   langcode: true

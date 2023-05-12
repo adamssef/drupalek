@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.plant.body
+    - field.field.node.plant.field_plant_image
+    - image.style.thumbnail
     - node.type.plant
   module:
+    - image
     - path
     - text
 id: node.plant.default
@@ -28,6 +31,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_plant_image:
+    type: image_image
+    weight: 122
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
   langcode:
     type: language_select

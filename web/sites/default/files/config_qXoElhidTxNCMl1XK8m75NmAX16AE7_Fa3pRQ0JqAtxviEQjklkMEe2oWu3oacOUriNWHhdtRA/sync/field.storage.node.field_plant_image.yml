@@ -1,0 +1,30 @@
+uuid: 61d06e0a-1b4c-40f0-8729-b3bd1487bad3
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_plant_image
+field_name: field_plant_image
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: fd4f5cc7-bec1-4d81-9c86-33c692ae0bee
+    alt: ''
+    title: ''
+    width: 900
+    height: 1200
+module: image
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

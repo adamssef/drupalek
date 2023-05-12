@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.plant.body
+    - field.field.node.plant.field_plant_image
     - node.type.plant
   module:
+    - image
     - text
     - user
 id: node.plant.default
@@ -19,6 +21,17 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 101
+    region: content
+  field_plant_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
     region: content
   links:
     settings: {  }
